@@ -1,0 +1,360 @@
+.nodisplay, .payapi label, .payapi .pa_notice_top, .payapi code {
+	display: block;
+}
+
+.payapi form select, .payapi_form .btn, .payapi_activate .btn, .payapi .pointing {
+	cursor: pointer;
+}
+
+.payapi_modal, .advanced_settings {
+	display: none;
+}
+.payapi .wow {
+	visibility: hidden;
+}
+
+.payapi .advanced_settings {
+	display: none;
+}
+
+.payapi .pa_notice_top {
+	width: auto;
+	font-size: 1.4em;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: cover;
+	padding: 1.2em 2em;
+	min-height: 60px;
+	margin-top: 1em;
+	margin-right: 1em;
+	color: #ffffff;
+}
+
+.payapi .pa_wrapper {
+	display: block;
+	margin-top: 1.4em;
+	margin-right: 1.4em;
+	width: auto;
+	padding: .1em 1.4em 1.4em 1.4em;
+	background-color: #ffffff;
+	border: #ebebeb 1px solid;
+	color: #333333;
+}
+
+.payapi .pa_wrapper h1 {
+	border-bottom: #4298d5 4px solid;
+	padding-bottom: 10px;
+	margin-bottom: 6px;
+}
+
+.payapi .pa_wrapper p {
+	font-size: 1.2em;
+	margin: 2px auto 10px auto;
+}
+
+.payapi .pa_notice_top, .payapi .pa_wrapper {
+	box-shadow: 2px 2px 6px #cccccc;
+}
+
+.payapi .pa_notice_top a, .payapi .pa_wrapper a {
+	text-decoration: none;
+}
+
+.payapi .pa_notice_top .description {
+	padding-top: .2em;
+	line-height: 1.4em;
+}
+
+.payapi .payapi_modal {
+	position: absolute;
+	z-index: 99999;
+	text-align: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.payapi .payapi_modal a {
+	text-decoration: none;
+
+}
+
+.payapi .payapi_modal .wrapper {
+	margin-top: 50px;
+	background-color: #ffffff;
+	width: 300px;
+	padding: 1.8em 2em;
+	border: #ffffff 1px solid;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 2px 2px 6px #cccccc;
+	background: #ffffff url('https://cdn.payapi.io/v1/image/loading.gif') no-repeat center center;
+	background-size: 8em 8em;
+	min-height: 290px;
+}
+
+.payapi .payapi_modal .wrapper form {
+	background-color: #ffffff;
+}
+
+.payapi .payapi_modal .close a {
+	color: #cccccc;
+}
+.payapi .payapi_modal .close a:hover {
+	color: #000000;
+}
+.payapi .dashicons.pa-dashicon {
+	font-size: 2.4em;
+	margin-top: -.4em;
+	margin-right: -.2em;
+}
+
+.payapi .dashicons.pa-bigger {
+	font-size: 3em;
+	margin-top: -10px;
+	margin-right: 26px;
+}
+
+.payapi code {
+	padding: 1em 2em;
+	line-height: 1.8em;
+}
+
+.payapi_form {
+	border-top: #4298d5 4px solid;
+	padding-top: 0;
+	margin-top: .4em;
+}
+
+.payapi_form input, .payapi_form select, .payapi_form button {
+    appearance: none;
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+}
+
+.payapi .pa_wrapper select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
+.payapi_form input,
+.payapi_form select {
+	width: 100%;
+	font-size: 1.4em;
+	background: linear-gradient(#ebebeb, #ffffff);
+	padding: .4em .6em;
+}
+
+.payapi_form input {
+	min-height: 44px;
+}
+
+.payapi_form select {
+	min-height: 44px;
+}
+
+.payapi_form .btn, .payapi .btn.btn-success, .payapi .btn.btn-default {
+	background-color: #4298d5;
+	background: linear-gradient(#03a7ff, #4298d5);
+	font-size: 1.4em;
+	color: #ffffff;
+	margin-top: .2em;
+	border: none;
+	border: #4298d5 2px solid;
+}
+
+.payapi_form .btn.success, .payapi .btn.btn-success {
+	background-color: #67c200;
+	background: linear-gradient(#a6d869, #67c200);
+	border: #67c200 2px solid;
+}
+
+.payapi_modal a {
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+}
+
+.payapi_form .btn:hover, .payapi .btn.btn-default:hover {
+	background-color: #03a7ff;
+	background: linear-gradient(#4298d5, #03a7ff);
+}
+
+.payapi_form .btn.success:hover, .payapi .btn.btn-success:hover {
+	background-color: #a6d869;
+	background: linear-gradient(#67c200, #a6d869);
+}
+
+.payapi .form_top_notice {
+	background-color: #639bb4;
+	color: #ffffff;
+	padding: .6em;
+	margin-top: 1em;
+	display: none;
+}
+
+.payapi .form_top_notice.success, .payapi .pa_labeled.success {
+	background-color: #7dbf94;
+}
+
+.payapi .pa_success {
+	color: #7dbf94;
+}
+
+.payapi .form_top_notice.fail, .payapi .pa_labeled.fail {
+	background-color: #800000;
+}
+
+.payapi .pa_labeled {
+	color: #ffffff;
+	padding: .1em .4em .2em .4em;
+	border-radius: 8px 8px;
+}
+
+.payapi .pa_fail {
+	color: #800000;
+}
+
+.payapi .form_top_notice.warning {
+	background-color: #fbe171;
+}
+
+.payapi .pa_warning {
+	color: #fbe171;
+}
+
+.payapi_form option.option {
+	font-size: 2em;
+}
+
+.payapi_form .btn {
+	width: 100%;
+}
+
+.payapi_form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #cccccc;
+}
+
+.payapi_form ::-moz-placeholder { /* Firefox 19+ */
+  color: #cccccc;
+}
+
+.payapi_form :-ms-input-placeholder { /* IE 10+ */
+  color: #cccccc;
+}
+
+.payapi_form :-moz-placeholder { /* Firefox 18- */
+  color: #cccccc;
+}
+
+.payapi_form placeholder {
+  color: #cccccc;
+}
+
+.payapi_form p:hover label {
+	color: #000000;
+}
+
+.payapi .block-1, .payapi .block-2, .payapi .block-3, .payapi .block-4 {
+	float: left;
+}
+
+.payapi .block-1 {
+	width: 100%;
+}
+
+.payapi .block-2 {
+	width: 49%;
+	margin-right: 1%;
+}
+
+.payapi .block-3 {
+	width: 32%;
+	margin-right: 2%;
+}
+
+.payapi .block-4 {
+	width: 24%;
+	margin-right: 1%;
+}
+
+.payapi .block-1.last, .payapi .block-2.last, .payapi .block-3.last, .payapi .block-4.last {
+	float: right;
+	margin-right: 0;
+}
+
+.payapi_form select option.option {
+	font-size: 1.4em;
+}
+
+.payapi_form p {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.payapi_form label {
+	clear: both;
+	margin-top: .4em;
+	color: #ebebeb;
+}
+
+.payapi .pull-right {
+	float: right;
+}
+
+.payapi .pull-left {
+	float: left;
+}
+
+.payapi p {
+	text-align: justify;
+}
+
+.payapi .text-right, .payapi p.text-right, .payapi .pa_prefooter {
+	text-align: right;
+}
+
+.payapi .smaller, .payapi p.smaller {
+	font-size: .7em;
+	font-weight: lighter;
+}
+
+.payapi .bigger {
+	font-size: .1.2em;
+}
+
+.payapi p.pa_prefooter {
+	font-size: .9em;
+	color: #ebebeb;
+}
+
+.payapi .lighter {
+	color: #cccccc;
+}
+
+.payapi br.clear {
+	display: block;
+	clear: both;
+	line-height: .1em;
+	overflow: hidden;
+	margin-bottom: 4px;
+}
+
+.payapi_form input,
+.payapi_form select,
+.payapi_form .btn,
+.payapi_activate .btn {
+	border-radius: 6px;
+	padding: .4em .6em;
+}
+
+.payapi .form_top_notice {
+	border-radius: 6px 6px;
+}
+
+.payapi_modal .wrapper, .payapi_loader {
+	border-radius: 10px;
+}
